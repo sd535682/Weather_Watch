@@ -1,7 +1,13 @@
 # Weather App (Openweathermap API)
 
 This is a Weather app based on HTML CSS JavaScipt and data fetched from API
+
 Changes background images as per Location Input (images fetched from Unsplash)
+
+Experience it here - https://sd535682.github.io/weather/
+
+[Note - Loading Background Image may take some time 
+bacause unsplash images are quite heavy in size {depends on ur Internet speed too}]
 
 Made by Subhadeep Das
 
