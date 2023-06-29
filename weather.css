@@ -5,17 +5,21 @@
   src: url(assets/fonts/Gontserrat_Regular.ttf);
   src: url(assets/fonts/Gontserrat_SemiBold.ttf);
 }
-
+.bg-container {
+  background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+  width:100%;
+  height:100%; 
+  border:5px solid red;
+  box-sizing:border-box;
+}
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width:100%;
+  height: 100vh;
   margin: 0;
   background-color: black;
   font-family: "Gonserrat";
-  background-image: url("https://images.unsplash.com/photo-1541532869553-bd2b46e44fb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
   font-size: 100%;
   object-fit: scale-down;
   background-position: center;
