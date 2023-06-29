@@ -14,7 +14,7 @@ body {
   margin: 0;
   background-color: black;
   font-family: "Gonserrat";
-  background-image: url("assets/img/background.jpg");
+  background-image: url("img/background.jpg");
   font-size: 100%;
   object-fit: scale-down;
   background-position: center;
