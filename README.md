@@ -1,4 +1,4 @@
-# Weather App (Openweathermap API)
+# Weather Watch (Openweathermap API)
 
 This is a Weather app based on HTML CSS JavaScipt and data fetched from API
 
