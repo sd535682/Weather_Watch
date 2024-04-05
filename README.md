@@ -2,7 +2,7 @@
 
 This is a Weather app based on HTML CSS JavaScipt and data fetched from API
 
-Experience it here - https://sd535682.github.io/weather/
+Experience it here - https://sd535682.github.io/Weather_Watch/
 
 Made by Subhadeep Das
 
