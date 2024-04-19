@@ -7,7 +7,7 @@
 }
 .bg-container {
 /*   display: flex; */
-  background-image: url("https://images.unsplash.com/photo-1564468646894-ce33398759c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1522&q=80") no-repeat center center fixed;
+  background-image: url("https://images.pexels.com/photos/6528291/pexels-photo-6528291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   overflow: hidden;
