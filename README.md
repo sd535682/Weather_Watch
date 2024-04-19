@@ -1,6 +1,7 @@
-# Weather Watch (Openweathermap API)
+## Weather Watch (Openweathermap API)
 
-This is a Weather app based on HTML CSS JavaScipt and data fetched from API
+This is a Weather app made using HTML CSS JavaScipt and weather data fetched from openweathermapAPI
+also it changes background according to the Place entered
 
 Experience it here - https://sd535682.github.io/Weather_Watch/
 
