@@ -1,97 +1,97 @@
 @font-face {
-  font-family: Gonserrat;
-  /* src: url(assets/fonts/cvchv.otf); */
-  /* src: url(assets/fonts/cvcrg.otf); */
-  src: url(assets/fonts/Gontserrat_Regular.ttf);
-  src: url(assets/fonts/Gontserrat_SemiBold.ttf);
+    font-family: Gonserrat;
+    src: url(assets/fonts/Gontserrat_Regular.ttf);
+    src: url(assets/fonts/Gontserrat_SemiBold.ttf);
 }
-.bg-container {
-/*   display: flex; */
-  background-image: url("https://images.pexels.com/photos/6528291/pexels-photo-6528291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center fixed;
-  background-size: cover;
-  min-height: 100vh;
-  overflow: hidden;
-}
+
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-/*   height: 100vh; */
-  margin: 0;
-  background-color: black;
-  font-family: "Gonserrat";
-  font-size: 100%;
-  object-fit: scale-down;
-  background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Gonserrat";
+    font-size: 100%;
+    min-height: 100vh;
+}
+
+.bg-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
-  color: white;
-  padding: 2em;
-  border-radius: 30px;
-  width: 100%;
-  max-width: 420px;
-  margin: 1em;
-  backdrop-filter: blur(100px);
-  background-color: black;
-  opacity: 0.6;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    backdrop-filter: blur(100px);
+    background-color: black;
+    opacity: 0.8;
 }
 
 .search {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
-  margin: 0.5em;
-  border-radius: 50%;
-  border: none;
-  height: 40px;
-  width: 40px;
-  outline: none;
-  background: white;
-  padding: 10px;
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    background: white;
+    padding: 10px;
 }
 
 button:hover {
-  background: #7c7c7c6b;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
+    background: #7c7c7c6b;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
 }
 
 input.search-bar {
-  border: none;
-  outline: none;
-  border-radius: 20px;
-  padding: 0.8em 1em;
-  background: white;
-  color: black;
-  font-size: 100%;
-  width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0.8em 1em;
+    background: white;
+    color: black;
+    font-size: 100%;
+    width: 100%;
 }
 
 h1.temp {
-  margin: 0;
+    margin: 0;
 }
 
 .icdes {
-  display: flex;
-  align-items: center;
-  margin-left: 0em;
+    display: flex;
+    align-items: center;
+    margin-left: 0em;
 }
 
 .description {
-  text-transform: capitalize;
-  margin-left: 0px;
+    text-transform: capitalize;
+    margin-left: 0px;
 }
 
 .icon {
-  margin-left: 0em;
-  padding: 0em;
+    margin-left: 0em;
+    padding: 0em;
 }
 
 .magni {
-  height: 20px;
-  width: 20px;
+    height: 20px;
+    width: 20px;
 }

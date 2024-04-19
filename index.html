@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Forecast</title>
     <link rel="stylesheet" href="weather.css" />
     <script src="weather.js" defer></script>
-  </head>
-  <body class = 'bg'>
-    <div class="card">
-      <div class="search">
-        <input
-          type="text"
-          class="search-bar"
-          placeholder="Search"
-          spellcheck="false"
-        />
-        <button>
-          <img src="./assets/img/search.png" class="magni" />
-        </button>
-        <!-- <button></button> -->
-      </div>
-      <div class="weather">
-        <h2 class="city"></h2>
-        <h3 class="date"></h3>
-        <h1 class="temp"></h1>
-        <div class="icdes">
-          <img src="http://openweathermap.org/img/wn/50n.png" class="icon" />
-          <div class="description"></div>
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="card">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Search" spellcheck="false" />
+                <button>
+                    <img src="./assets/img/search.png" class="magni" />
+                </button>
+            </div>
+            <div class="weather">
+                <h2 class="city"></h2>
+                <h3 class="date"></h3>
+                <h1 class="temp"></h1>
+                <div class="icdes">
+                    <img src="http://openweathermap.org/img/wn/50n.png" class="icon" />
+                    <div class="description"></div>
+                </div>
+                <div class="humidity"></div>
+                <div class="windspeed"></div>
+            </div>
         </div>
-        <div class="humidity"></div>
-        <div class="windspeed"></div>
-      </div>
     </div>
-  </body>
+</body>
+
 </html>
